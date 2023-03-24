@@ -1,0 +1,50 @@
+/*the standard CSS comments will show up on the output
+.css file*/ /*formats the lsit*/
+ul {
+  font-size: 30px;
+  font-family: Georgia;
+  color: #AFB4C3;
+}
+ul li {
+  font-size: 24px;
+}
+
+.standard {
+  color: #c3beaf;
+}
+
+.different {
+  color: #504b3c;
+  background-color: #c3beaf;
+}
+
+.mixinTest {
+  background-color: pink;
+  padding: 65px;
+  font-style: italic;
+  border: 65px dotted hotpink;
+  font-size: 45px;
+  color: white;
+}
+
+/*media query for grid*/
+@media screen and (max-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #5b5c5f;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #5b5c5f;
+  }
+}
+/*formats the grid item*/
+.grid-item {
+  background-color: #464646;
+  border: 1px solid #5b5b5f;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */

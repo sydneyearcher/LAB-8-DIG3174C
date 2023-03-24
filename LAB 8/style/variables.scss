@@ -1,0 +1,27 @@
+//typography
+$ulsize: 30px;
+$lisize: round($ulsize*.8);
+$ulfont: Georgia;
+
+//colors
+$ulcolor: #AFB4C3;
+$licolor: complement($ulcolor);
+$licolordiff: invert($ulcolor);
+$bgcolorgrit: invert(grayscale($ulcolor));
+$bgcolorgr: mix($ulcolor, $bgcolorgrit, 20);
+$bgcolorborder: adjust-hue($bgcolorgr, 20);
+
+
+$screen: 1000px;
+
+//My new variables
+$padding: 65px;
+$backgroundcolor: pink;
+$fontstyle:italic;
+$fontsize: 45px;
+$fontcolor: white;
+$newborder: 65px dotted hotpink; 
+
+
+
+
